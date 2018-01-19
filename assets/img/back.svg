@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="27px" viewBox="0 0 40 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="collection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-94.000000, -183.000000)" stroke-linecap="square">
+        <g id="back" transform="translate(94.000000, 185.000000)" stroke="#000000" stroke-width="5">
+            <path d="M7,11 L37,11" id="Line"></path>
+            <g id="Group-2" transform="translate(7.000000, 6.500000) rotate(-15.000000) translate(-7.000000, -6.500000) translate(1.000000, 2.000000)">
+                <path d="M0.452119889,4.43394109 L12.4521199,4.43394109" id="Line" transform="translate(6.452120, 4.433941) rotate(-35.000000) translate(-6.452120, -4.433941) "></path>
+            </g>
+            <g id="Group-3" transform="translate(8.000000, 16.500000) rotate(15.000000) translate(-8.000000, -16.500000) translate(2.000000, 12.000000)">
+                <path d="M-0.276608177,4.70569425 L11.7233918,4.70569425" id="Line" transform="translate(5.723392, 4.705694) rotate(35.000000) translate(-5.723392, -4.705694) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

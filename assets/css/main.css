@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+
+.top {
+  position: relative;
+  font-size: 2rem;
+  top: 3rem;
+  width: 77rem;
+  margin: 0 auto; }
+
+.container {
+  position: relative;
+  width: 77em;
+  margin: 0 auto;
+  margin-top: 10rem; }
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 4.5em; }
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2.25em; }
+
+a {
+  color: #000; }
+  a:visited {
+    color: #000; }
+
+header {
+  margin-bottom: 5em; }
+  .home header {
+    display: flex; }
+  header img {
+    display: block;
+    width: 15em;
+    height: 15em;
+    border-radius: 7.5em;
+    margin-right: 2em; }
+  header h1 {
+    margin-bottom: 0; }
+  header .subtitle {
+    font-size: 2.25em;
+    margin-top: 0.4444444444em; }
+
+section {
+  margin-bottom: 2em; }
+  section h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem; }
+  section p {
+    font-size: 1.5rem; }
+  .right section h2, .right section p {
+    text-align: end; }
+
+.section-container {
+  display: flex; }
+  .section-container section {
+    width: 37.5em; }
+  .section-container section img {
+    width: 37.5em; }
+  .section-container .right {
+    margin-left: 2em; }
+
+[class^="icon-"] {
+  display: block; }
+
+.icon-back {
+  width: 3rem;
+  height: 2rem; }
+
+.back-button {
+  position: absolute;
+  left: -9rem;
+  top: 2.2rem; }
