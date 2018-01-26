@@ -31,33 +31,42 @@ a {
   a:visited {
     color: #000; }
 
-.nav-top {
+.anchor {
+  color: inherit;
+  cursor: default;
+  text-decoration: none; }
+  .anchor:visited {
+    color: inherit; }
+
+.nav {
   width: 90%;
   font-size: 2rem;
   margin: 0 auto; }
   @media only screen and (min-width: 600px) {
-    .nav-top {
+    .nav {
       width: 73%;
       max-width: 924px; } }
 
 @media only screen and (min-width: 600px) {
-  .nav-container + .page-container header {
+  .nav + .page header {
     margin-top: 6rem; } }
 
-.page-container {
-  width: 90%;
+.page {
+  width: 100%;
   margin: 0 auto;
   margin-top: 3rem; }
-  @media only screen and (min-width: 600px) {
-    .page-container {
-      width: 73%;
-      max-width: 924px; } }
 
 header {
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+  padding-left: 5%;
+  padding-right: 5%; }
   @media only screen and (min-width: 600px) {
     header {
-      margin-top: 10rem; } }
+      margin-top: 10rem;
+      width: 73%;
+      max-width: 924px;
+      margin-left: auto;
+      margin-right: auto; } }
   header img {
     width: 8rem;
     height: 8rem; }
@@ -94,33 +103,102 @@ header {
     .home header img {
       margin-right: 2rem; } }
 
-.column {
+.two-col {
   overflow: auto;
-  clear: both; }
+  clear: both;
+  margin-left: 5%;
+  margin-right: 5%; }
+  @media only screen and (min-width: 600px) {
+    .two-col {
+      width: 73%;
+      max-width: 924px;
+      margin: 0 auto; } }
+  .two-col.picture-group {
+    margin-bottom: 4.9999%; }
+    @media only screen and (min-width: 600px) {
+      .two-col.picture-group {
+        margin-bottom: 2rem; } }
 
-.floated-item {
+.picture-group h2 {
+  margin-bottom: 0; }
+  .picture-group h2 + p {
+    margin-top: 0.4444444rem;
+    margin-bottom: 2rem; }
+  .picture-group h2.colour-1 {
+    color: #ffffff;
+    padding: 1rem;
+    background: #005AFF; }
+    .picture-group h2.colour-1 + p {
+      padding: 0 1rem; }
+  .picture-group h2.colour-2 {
+    color: #ffffff;
+    padding: 1rem;
+    background: #FF004C; }
+    .picture-group h2.colour-2 + p {
+      padding: 0 1rem; }
+  .picture-group h2.colour-3 {
+    color: #000000;
+    padding: 1rem;
+    background: #00FFE4; }
+    .picture-group h2.colour-3 + p {
+      padding: 0 1rem; }
+  .picture-group h2.colour-4 {
+    color: #000000;
+    padding: 1rem;
+    background: #00FFBB; }
+    .picture-group h2.colour-4 + p {
+      padding: 0 1rem; }
+  .picture-group h2.colour-5 {
+    color: #000000;
+    padding: 1rem;
+    background: #FFEF00; }
+    .picture-group h2.colour-5 + p {
+      padding: 0 1rem; }
+
+header + .picture-group h2 {
+  margin-top: 0; }
+
+.picture-group.colour-1 {
+  border-bottom: 5px solid #005AFF; }
+.picture-group.colour-2 {
+  border-bottom: 5px solid #FF004C; }
+.picture-group.colour-3 {
+  border-bottom: 5px solid #00FFE4; }
+.picture-group.colour-4 {
+  border-bottom: 5px solid #00FFBB; }
+.picture-group.colour-5 {
+  border-bottom: 5px solid #FFEF00; }
+
+.item {
+  width: 100%;
   margin-bottom: 5.55555%; }
-  .floated-item img {
+  .item img {
     width: 100%; }
   @media only screen and (min-width: 600px) {
-    .floated-item {
-      margin-bottom: 2.6%;
-      max-width: 48.7%; } }
+    .item {
+      margin-bottom: 2rem;
+      width: 48.7%; } }
 
-.floated-auto:nth-child(odd) {
+.float-auto:nth-child(odd) {
   float: left; }
 
-.floated-auto:nth-child(even) {
+.float-auto:nth-child(even) {
   float: right; }
   @media only screen and (min-width: 600px) {
-    .floated-auto:nth-child(even) {
+    .float-auto:nth-child(even) {
       text-align: right; } }
 
-.floated-right {
+.float-right {
   float: right; }
 
-.floated-left {
+.float-left {
   float: left; }
+
+.img-placeholder {
+  position: relative;
+  width: 100%; }
+  .img-placeholder img {
+    position: absolute; }
 
 .icon-home {
   width: 3rem;
@@ -146,3 +224,33 @@ header {
       margin-left: -7.4rem; } }
   .button-back + h1 {
     display: inline-block; }
+
+.background-1 {
+  background: #005AFF; }
+
+.background-2 {
+  background: #FF004C; }
+
+.background-3 {
+  background: #00FFE4; }
+
+.background-4 {
+  background: #00FFBB; }
+
+.background-5 {
+  background: #FFEF00; }
+
+.bordered-1--bottom {
+  border-bottom: 5px solid #005AFF; }
+
+.bordered-2--bottom {
+  border-bottom: 5px solid #FF004C; }
+
+.bordered-3--bottom {
+  border-bottom: 5px solid #00FFE4; }
+
+.bordered-4--bottom {
+  border-bottom: 5px solid #00FFBB; }
+
+.bordered-5--bottom {
+  border-bottom: 5px solid #FFEF00; }
