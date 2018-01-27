@@ -53,29 +53,24 @@ a {
 
 .page {
   width: 100%;
-  margin: 0 auto;
   margin-top: 3rem; }
 
+h1 + p, h2 + p {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
 header {
-  margin-bottom: 5rem;
-  padding-left: 5%;
-  padding-right: 5%; }
+  margin: 0 5% 5rem 5%; }
   @media only screen and (min-width: 600px) {
     header {
-      margin-top: 10rem;
+      margin: 10rem auto 5rem auto;
       width: 73%;
-      max-width: 924px;
-      margin-left: auto;
-      margin-right: auto; } }
+      max-width: 924px; } }
   header img {
     width: 8rem;
     height: 8rem; }
   header h1 {
     margin-top: 0;
-    margin-bottom: 0; }
-  header .subtitle {
-    font-size: 1.5rem;
-    margin-top: 0.4444444444rem;
     margin-bottom: 0; }
   @media only screen and (max-width: 450px) {
     header div:last-child {
@@ -97,6 +92,9 @@ header {
       justify-content: flex-start; } }
   .home header h1 {
     margin-top: 3rem; }
+  .home header .subtitle {
+    margin-top: 1rem;
+    margin-bottom: 0; }
   @media only screen and (min-width: 450px) {
     .home header h1 {
       margin-top: 0; }
@@ -114,16 +112,16 @@ header {
       max-width: 924px;
       margin: 0 auto; } }
   .two-col.picture-group {
-    margin-bottom: 4.9999%; }
+    margin-bottom: 5%; }
     @media only screen and (min-width: 600px) {
       .two-col.picture-group {
-        margin-bottom: 2rem; } }
+        margin-bottom: 1.77755%; } }
+    @media only screen and (min-width: 924px) {
+      .two-col.picture-group {
+        margin-bottom: 22.9449px; } }
 
 .picture-group h2 {
-  margin-bottom: 0; }
-  .picture-group h2 + p {
-    margin-top: 0.4444444rem;
-    margin-bottom: 2rem; }
+  margin: 0; }
   .picture-group h2.colour-1 {
     color: #ffffff;
     padding: 1rem;
@@ -155,9 +153,6 @@ header {
     .picture-group h2.colour-5 + p {
       padding: 0 1rem; }
 
-header + .picture-group h2 {
-  margin-top: 0; }
-
 .picture-group.colour-1 {
   border-bottom: 5px solid #005AFF; }
 .picture-group.colour-2 {
@@ -171,13 +166,13 @@ header + .picture-group h2 {
 
 .item {
   width: 100%;
-  margin-bottom: 5.55555%; }
-  .item img {
-    width: 100%; }
+  margin-bottom: 5.5555555556%; }
   @media only screen and (min-width: 600px) {
     .item {
-      margin-bottom: 2rem;
+      margin-bottom: 2.6%;
       width: 48.7%; } }
+  .item img {
+    width: 100%; }
 
 .float-auto:nth-child(odd) {
   float: left; }
