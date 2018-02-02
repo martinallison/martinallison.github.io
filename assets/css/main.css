@@ -41,11 +41,13 @@ a {
 .nav {
   width: 90%;
   font-size: 2rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
   @media only screen and (min-width: 600px) {
     .nav {
       width: 73%;
-      max-width: 924px; } }
+      max-width: 924px;
+      text-align: start; } }
 
 @media only screen and (min-width: 600px) {
   .nav + .page header {
@@ -71,7 +73,8 @@ header {
     height: 8rem; }
   header h1 {
     margin-top: 0;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    line-height: 3.375rem; }
   @media only screen and (max-width: 450px) {
     header div:last-child {
       width: 100%; } }
@@ -86,10 +89,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  text-align: center; }
   @media only screen and (min-width: 600px) {
     .home header {
-      justify-content: flex-start; } }
+      justify-content: flex-start;
+      text-align: start; } }
   .home header h1 {
     margin-top: 3rem; }
   .home header .subtitle {
