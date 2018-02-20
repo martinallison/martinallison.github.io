@@ -108,14 +108,6 @@ header {
 .two-col {
   overflow: auto;
   clear: both; }
-  .two-col.picture-group {
-    margin-bottom: 5%; }
-    @media only screen and (min-width: 600px) {
-      .two-col.picture-group {
-        margin-bottom: 1.77755%; } }
-    @media only screen and (min-width: 924px) {
-      .two-col.picture-group {
-        margin-bottom: 22.9449px; } }
 
 .picture-group h2 {
   margin: -1rem 0 0 0; }
@@ -124,8 +116,15 @@ header {
     padding: 1rem 0;
     border-bottom: 5px solid #000; }
 
-.picture-group {
-  border-bottom: 5px solid #000; }
+.picture-group + div:not(.picture-group) {
+  border-top: 5px solid #000;
+  padding-top: 5%; }
+  @media only screen and (min-width: 600px) {
+    .picture-group + div:not(.picture-group) {
+      padding-top: 1.77755%; } }
+  @media only screen and (min-width: 924px) {
+    .picture-group + div:not(.picture-group) {
+      padding-top: 19.422px; } }
 
 .item {
   position: relative;
