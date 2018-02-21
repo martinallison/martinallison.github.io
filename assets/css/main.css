@@ -27,14 +27,57 @@ a {
   a:visited {
     color: #000; }
 
-.centered {
+form *:not(:first-child) {
+  margin-top: 2rem; }
+form input, form textarea {
+  line-height: 3.75rem;
+  display: block;
+  box-sizing: border-box; }
+form input:not([type=submit]), form textarea {
+  width: 100%; }
+@media only screen and (max-width: 600px) {
+  form input[type=submit] {
+    width: 100%; } }
+
+h1 + p, h2 + p {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem; }
+.item h1 + p, .item h2 + p {
+  margin-bottom: 0; }
+
+header {
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem; }
+  header h1 {
+    margin: 0;
+    line-height: 4.5rem; }
+  header .subtitle {
+    font-size: 2.25rem;
+    margin-top: 1.75rem; }
+
+.home header {
+  text-align: center;
+  margin-top: 0; }
+  .home header h1 {
+    margin-top: 6.25rem; }
+  .home header img {
+    width: 15.625rem;
+    height: 15.625rem; }
+  .home header .subtitle {
+    margin-bottom: 0; }
+
+.page-center {
   width: 90%;
   margin-left: auto;
   margin-right: auto; }
   @media only screen and (min-width: 600px) {
-    .centered {
+    .page-center {
       width: 73%;
       max-width: 924px; } }
+
+.centered {
+  margin-left: auto;
+  margin-right: auto; }
 
 .flex-even {
   display: flex;
@@ -56,6 +99,26 @@ a {
   @media only screen and (min-width: 830px) {
     .boxy {
       border-width: 10px; } }
+  .boxy.quiet {
+    font-weight: normal;
+    text-transform: none; }
+
+input[type=submit].boxy {
+  border: none;
+  background: #005AFF;
+  color: #fff;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem; }
+
+.contact {
+  padding-top: 6.25rem;
+  padding-bottom: 2rem;
+  text-align: center; }
+  .contact h2 {
+    margin-top: 0; }
+  @media only screen and (min-width: 600px) {
+    .contact {
+      width: 60%; } }
 
 .home .nav-item {
   margin: 0 0.5rem 1rem 0.5rem;
@@ -64,6 +127,13 @@ a {
   max-width: 25%; }
   .home .nav-item:visited {
     text-decoration: none; }
+
+.home .stand-out {
+  background: #005AFF;
+  padding: 6.25rem 0 5.25rem 0; }
+  .home .stand-out * {
+    color: #fff;
+    border-color: #fff; }
 
 .anchor {
   color: inherit;
@@ -78,32 +148,6 @@ a {
 
 .page {
   width: 100%; }
-
-h1 + p, h2 + p {
-  margin-top: 1.5rem;
-  margin-bottom: 2rem; }
-.item h1 + p, .item h2 + p {
-  margin-bottom: 0; }
-
-header {
-  margin-top: 6.25rem;
-  margin-bottom: 6.25rem; }
-  header h1 {
-    margin: 0;
-    line-height: 4.5rem; }
-  header .subtitle {
-    font-size: 2.25rem;
-    margin-top: 1.75rem; }
-
-.home header {
-  text-align: center; }
-  .home header h1 {
-    margin-top: 6.25rem; }
-  .home header img {
-    width: 15.625rem;
-    height: 15.625rem; }
-  .home header .subtitle {
-    margin-bottom: 0; }
 
 .two-col {
   overflow: auto;

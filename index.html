@@ -21,20 +21,31 @@
 
         <div class="page">
         
-    <header class="centered">
-        <img src="/assets/img/profile-2.svg" alt="Abstract representation of face">
-        <h1>Martin Allison</h1>
-        <p class="subtitle">Just a guy with a website for some reason</p>
-    </header>
+    <div class="stand-out">
+        <header class="page-center">
+            <img src="/assets/img/profile-2.svg" alt="Abstract representation of face">
+            <h1>Martin Allison</h1>
+            <p class="subtitle">Just a guy with a website for some reason</p>
+        </header>
 
-    
+        
 
-    <nav class="flex-even centered">
-    
-        <a href="/photos" class="nav-item boxy">Photos</a>
-    
-        <a href="/about" class="nav-item boxy">About</a>
-    
+        <nav class="flex-even page-center">
+        
+            <a href="/photos" class="nav-item boxy">Photos</a>
+        
+            <a href="/about" class="nav-item boxy">About</a>
+        
+        </nav>
+    </div>
+
+    <div id="contact" class="contact page-center">
+        <h2>Hit me up</h2>
+        <form action="https://formspree.io/martinallison@gmail.com" method="POST">
+            <input class="boxy quiet centered" type="email" name="_replyto" placeholder="Email">
+            <textarea class="boxy quiet centered" rows="10" name="message" placeholder="Message"></textarea>
+            <input class="boxy" type="submit" value="Send">
+        </form>
     </div>
 
 
