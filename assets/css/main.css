@@ -216,7 +216,8 @@ input[type=submit].boxy {
 
 .img-placeholder {
   position: relative;
-  width: 100%; }
+  width: 100%;
+  background: #000; }
   .img-placeholder img {
     position: absolute; }
 
