@@ -1,5 +1,5 @@
 html {
-  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "SF Pro Text", -apple-system, "Helvetica Neue", BlinkMacSystemFont, sans-serif;
   font-size: 46%;
   text-decoration-skip: ink;
   margin: 0; }
@@ -22,7 +22,7 @@ h2 {
   font-size: 3rem; }
 
 p, textarea {
-  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "SF Pro Text", -apple-system, "Helvetica Neue", BlinkMacSystemFont, sans-serif;
   font-size: 2.25em;
   line-height: 3.75rem; }
 
