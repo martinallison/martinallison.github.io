@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>face</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-238.000000, -98.000000)">
+            <g id="face" transform="translate(240.000000, 100.000000)">
+                <path d="M32,16 C32,24.836608 24.836608,32 16,32 C7.163392,32 0,24.836608 0,16 C0,7.163392 7.163392,0 16,0 C24.836608,0 32,7.163392 32,16" id="Fill-1" fill="#FFFFFF"></path>
+                <path d="M24.6113832,2.66666667 L7.33333333,29.4916315 C9.85595528,31.0982356 12.8615861,32.0217719 16.0858339,31.9996101 C24.8968034,31.9391109 32.0607727,24.7186901 31.9996113,15.9664295 C31.9606321,10.3803788 29.0255228,5.47790546 24.6113832,2.66666667" id="Fill-3" fill="#FFEDE5"></path>
+                <path d="M32,16 C32,24.836608 24.836608,32 16,32 C7.163392,32 0,24.836608 0,16 C0,7.163392 7.163392,0 16,0 C24.836608,0 32,7.163392 32,16 Z" id="Stroke-5" stroke="#005AFF" stroke-width="3"></path>
+                <polyline id="Stroke-7" stroke="#005AFF" stroke-width="3" points="10.6666667 10 18 20 10.6666667 20"></polyline>
+                <path d="M14.6666667,24.6002656 L22,24.6002656" id="Stroke-11" stroke="#005AFF" stroke-width="3"></path>
+                <path d="M24.6666667,10 C24.6666667,12.2091077 22.8757744,14 20.6666667,14 C18.457559,14 16.6666667,12.2091077 16.6666667,10 C16.6666667,7.79089231 18.457559,6 20.6666667,6 C22.8757744,6 24.6666667,7.79089231 24.6666667,10" id="Fill-13" fill="#005AFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

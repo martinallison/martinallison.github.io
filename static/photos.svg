@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="68px" viewBox="0 0 76 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="34" cy="34" r="34"></circle>
+        <circle id="path-3" cx="34.557377" cy="34.557377" r="15.6065574"></circle>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4">
+            <path d="M40,0 L68,0 C72.418278,-8.11624501e-16 76,3.581722 76,8 L76,60 C76,64.418278 72.418278,68 68,68 L40,68 C22.326888,68 8,53.673112 8,36 L8,32 C8,14.326888 22.326888,3.24649801e-15 40,0 Z" id="Rectangle" fill="#0920A3"></path>
+            <g id="Group-2">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval" fill="#005AFF" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#FFBE67" mask="url(#mask-2)" x="0" y="32.3278689" width="70.2295082" height="42.3606557"></rect>
+            </g>
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Oval" fill="#FFFFFF" xlink:href="#path-3"></use>
+            <path d="M25.2399747,22.0361714 L47.0785827,43.8747794 C44.233521,47.6918999 39.6841363,50.1639344 34.557377,50.1639344 C25.9381134,50.1639344 18.9508197,43.1766407 18.9508197,34.557377 C18.9508197,29.4306178 21.4228542,24.8812331 25.2399747,22.0361714 Z" id="Rectangle-2" fill="#FF6464" mask="url(#mask-4)"></path>
+        </g>
+    </g>
+</svg>
