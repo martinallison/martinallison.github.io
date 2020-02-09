@@ -77,10 +77,19 @@ a:hover {
 }
 
 .header__back {
-  --spacing: 1.25rem;
-  display: block;
-  margin-left: calc(-1.625rem - var(--spacing));
-  margin-right: var(--spacing);
+    --spacing: 1.25rem;
+    margin-right: var(--spacing);
+}
+
+@media screen and (min-width: 69rem) {
+  .header__back {
+    display: block;
+    margin-left: calc(-1.625rem - var(--spacing));
+  }
+}
+
+.header__back img {
+  width: 2rem;
 }
 
 .header__subtitle {
