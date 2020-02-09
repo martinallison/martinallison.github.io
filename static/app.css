@@ -4,15 +4,15 @@
   --text-color-body: #000;
   --text-size-s: 1.125rem;
   --text-size-m: 1.5rem;
-  --weight-regular: 300;
-  --weight-medium: 400;
-  --weight-bold: 500;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
 }
 
 html {
   color: var(--text-color-body);
   background: var(--background-body);
-  font-family: "filson pro", sans-serif;
+  font-family: filson-pro, sans-serif;
   font-size: 100%;
 }
 
