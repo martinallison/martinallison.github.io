@@ -12,8 +12,35 @@
 html {
   color: var(--text-color-body);
   background: var(--background-body);
-  font-family: filson-pro, sans-serif;
   font-size: 100%;
+  font-family: -apple-system,
+               BlinkMacSystemFont,
+               "Segoe UI",
+               Roboto,
+               "Helvetica Neue",
+               Arial,
+               "Noto Sans",
+               sans-serif,
+               "Apple Color Emoji",
+               "Segoe UI Emoji",
+               "Segoe UI Symbol",
+               "Noto Color Emoji";
+}
+
+.fonts-loaded {
+  font-family: filson-pro,
+               -apple-system,
+               BlinkMacSystemFont,
+               "Segoe UI",
+               Roboto,
+               "Helvetica Neue",
+               Arial,
+               "Noto Sans",
+               sans-serif,
+               "Apple Color Emoji",
+               "Segoe UI Emoji",
+               "Segoe UI Symbol",
+               "Noto Color Emoji";
 }
 
 @media only screen and (max-width: 30rem) {
@@ -177,13 +204,7 @@ a:hover {
   text-decoration: none;
 }
 
-.photo-list__item img {
-  display: block;
-  position: absolute;
-}
-
 .photo-list__img-placeholder {
-  position: relative;
   background: var(--background-img-placeholder);
 }
 

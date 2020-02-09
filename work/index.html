@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -40,5 +41,13 @@
     </p>
   </main>
 
+
+  <script type="text/javascript" src="/static/js/fontfaceobserver.js" async></script>
+  <script type="text/javascript">
+    const observer = new FontFaceObserver('filson-pro');
+    observer.load().then(() => {
+      document.documentElement.classList.add('fonts-loaded');
+    });
+  </script>
   </body>
 </html>
